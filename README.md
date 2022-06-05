@@ -46,6 +46,13 @@ kubectl apply -f nginx-pod.yaml
 ```
 kubectl get pod
 ```
+
+* nginx pod 의 describe를 확인해 본다. 
+
+```
+kubectl describe pod nignx
+```
+
 ![2](./images/2.jpg)
 
 ## 서비스 수행하기
